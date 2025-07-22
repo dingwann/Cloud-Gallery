@@ -1,4 +1,4 @@
-package org.example.template.model.dto.user;
+package org.example.cloudgallery.model.dto.user;
 
 import lombok.Data;
 

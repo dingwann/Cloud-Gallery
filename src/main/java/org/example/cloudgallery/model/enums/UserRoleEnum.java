@@ -1,4 +1,4 @@
-package org.example.template.model.enums;
+package org.example.cloudgallery.model.enums;
 
 import cn.hutool.core.util.ObjUtil;
 import lombok.Getter;

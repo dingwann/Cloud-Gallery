@@ -1,4 +1,4 @@
-package org.example.template.annotation;
+package org.example.cloudgallery.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

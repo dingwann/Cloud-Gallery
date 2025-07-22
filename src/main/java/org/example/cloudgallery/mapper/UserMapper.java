@@ -1,7 +1,7 @@
-package org.example.template.mapper;
+package org.example.cloudgallery.mapper;
 
-import org.example.template.model.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.example.cloudgallery.model.entity.User;
 
 /**
 * @author liuwang

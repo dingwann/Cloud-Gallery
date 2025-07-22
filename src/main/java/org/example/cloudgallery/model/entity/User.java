@@ -1,4 +1,4 @@
-package org.example.template.model.entity;
+package org.example.cloudgallery.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 

@@ -1,21 +1,21 @@
-package org.example.template.controller;
+package org.example.cloudgallery.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
-import org.example.template.annotation.AuthCheck;
-import org.example.template.common.BaseResponse;
-import org.example.template.common.DeleteRequest;
-import org.example.template.common.ResultUtils;
-import org.example.template.constant.UserConstant;
-import org.example.template.exception.BusinessException;
-import org.example.template.exception.ErrorCode;
-import org.example.template.exception.ThrowUtils;
-import org.example.template.model.dto.user.*;
-import org.example.template.model.entity.User;
-import org.example.template.model.vo.LoginUserVO;
-import org.example.template.model.vo.UserVO;
-import org.example.template.service.UserService;
+import org.example.cloudgallery.annotation.AuthCheck;
+import org.example.cloudgallery.common.BaseResponse;
+import org.example.cloudgallery.common.DeleteRequest;
+import org.example.cloudgallery.common.ResultUtils;
+import org.example.cloudgallery.constant.UserConstant;
+import org.example.cloudgallery.exception.BusinessException;
+import org.example.cloudgallery.exception.ErrorCode;
+import org.example.cloudgallery.exception.ThrowUtils;
+import org.example.cloudgallery.model.dto.user.*;
+import org.example.cloudgallery.model.entity.User;
+import org.example.cloudgallery.model.vo.LoginUserVO;
+import org.example.cloudgallery.model.vo.UserVO;
+import org.example.cloudgallery.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
 

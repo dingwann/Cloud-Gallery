@@ -1,8 +1,8 @@
-package org.example.template.model.dto.user;
+package org.example.cloudgallery.model.dto.user;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.example.template.common.PageRequest;
+import org.example.cloudgallery.common.PageRequest;
 
 import java.io.Serial;
 import java.io.Serializable;

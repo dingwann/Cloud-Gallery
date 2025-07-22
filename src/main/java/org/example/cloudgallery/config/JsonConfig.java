@@ -1,4 +1,4 @@
-package org.example.template.config;
+package org.example.cloudgallery.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;

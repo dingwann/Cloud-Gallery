@@ -1,14 +1,15 @@
-package org.example.template.service;
+package org.example.cloudgallery.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import jakarta.servlet.http.HttpServletRequest;
-import org.example.template.model.dto.user.UserQueryRequest;
-import org.example.template.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.example.template.model.vo.LoginUserVO;
-import org.example.template.model.vo.UserVO;
+import jakarta.servlet.http.HttpServletRequest;
+import org.example.cloudgallery.model.dto.user.UserQueryRequest;
+import org.example.cloudgallery.model.entity.User;
+import org.example.cloudgallery.model.vo.LoginUserVO;
+import org.example.cloudgallery.model.vo.UserVO;
 
 import java.util.List;
+
 
 /**
 * @author liuwang

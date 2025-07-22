@@ -1,4 +1,4 @@
-package org.example.template.service.impl;
+package org.example.cloudgallery.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjUtil;
@@ -8,15 +8,15 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
-import org.example.template.exception.BusinessException;
-import org.example.template.exception.ErrorCode;
-import org.example.template.model.dto.user.UserQueryRequest;
-import org.example.template.model.entity.User;
-import org.example.template.model.enums.UserRoleEnum;
-import org.example.template.model.vo.LoginUserVO;
-import org.example.template.model.vo.UserVO;
-import org.example.template.service.UserService;
-import org.example.template.mapper.UserMapper;
+import org.example.cloudgallery.exception.BusinessException;
+import org.example.cloudgallery.exception.ErrorCode;
+import org.example.cloudgallery.mapper.UserMapper;
+import org.example.cloudgallery.model.dto.user.UserQueryRequest;
+import org.example.cloudgallery.model.entity.User;
+import org.example.cloudgallery.model.enums.UserRoleEnum;
+import org.example.cloudgallery.model.vo.LoginUserVO;
+import org.example.cloudgallery.model.vo.UserVO;
+import org.example.cloudgallery.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
@@ -25,7 +25,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.example.template.constant.UserConstant.USER_LOGIN_STATE;
+import static org.example.cloudgallery.constant.UserConstant.USER_LOGIN_STATE;
+
 
 /**
 * @author liuwang
@@ -35,7 +36,7 @@ import static org.example.template.constant.UserConstant.USER_LOGIN_STATE;
 @Service
 @Slf4j
 public class UserServiceImpl extends ServiceImpl<UserMapper, User>
-    implements UserService{
+    implements UserService {
 
     @Override
     public long userRegister(String userAccount, String userPassword, String checkPassword) {

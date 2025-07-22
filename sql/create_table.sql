@@ -1,8 +1,8 @@
 -- 创建数据库
-create database if not exists template;
+create database if not exists cloud_gallery;
 
 -- 切换数据库
-use template;
+use cloud_gallery;
 
 -- 用户表
 create table if not exists user

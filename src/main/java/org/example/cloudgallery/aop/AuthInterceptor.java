@@ -1,16 +1,16 @@
-package org.example.template.aop;
+package org.example.cloudgallery.aop;
 
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.example.template.annotation.AuthCheck;
-import org.example.template.exception.BusinessException;
-import org.example.template.exception.ErrorCode;
-import org.example.template.model.entity.User;
-import org.example.template.model.enums.UserRoleEnum;
-import org.example.template.service.UserService;
+import org.example.cloudgallery.annotation.AuthCheck;
+import org.example.cloudgallery.exception.BusinessException;
+import org.example.cloudgallery.exception.ErrorCode;
+import org.example.cloudgallery.model.entity.User;
+import org.example.cloudgallery.model.enums.UserRoleEnum;
+import org.example.cloudgallery.service.UserService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;

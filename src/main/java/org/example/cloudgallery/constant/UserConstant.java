@@ -1,4 +1,4 @@
-package org.example.template.constant;
+package org.example.cloudgallery.constant;
 
 public interface UserConstant {
 

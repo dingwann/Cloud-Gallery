@@ -1,4 +1,4 @@
-package org.example.template.config;
+package org.example.cloudgallery.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("org.example.template.mapper")
+@MapperScan("org.example.cloudgallery.mapper")
 public class MybatisPlusConfig {
 
     /**

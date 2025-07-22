@@ -1,4 +1,4 @@
-package org.example.template.model.vo;
+package org.example.cloudgallery.model.vo;
 
 import lombok.Data;
 
