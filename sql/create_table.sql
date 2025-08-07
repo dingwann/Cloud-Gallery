@@ -23,4 +23,14 @@ create table if not exists user
     INDEX idx_userName (userName)
 ) comment '用户' collate = utf8mb4_unicode_ci;
 
+-- 功能扩展（user）
+-- 新增列：userEmail、shareCode、inviteUser、vipExpireTime、vipCode、vipNumber
+alter table user
+    add column userEmail varchar(64) null comment '用户邮箱',
+    add column userShareCode varchar(20) default null comment '用户分享码',
+    add column inviteUser bigint default null comment '邀请人id',
+    add column vipExpireTime datetime null comment 'vip过期时间',
+    add column vipCode varchar(128) null comment 'vip兑换码',
+    add column vipNumber int null comment 'vip等级';
+
 -- ...

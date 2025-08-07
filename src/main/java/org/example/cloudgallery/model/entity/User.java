@@ -70,6 +70,37 @@ public class User implements Serializable {
     private Date updateTime;
 
     /**
+     * 用户邮箱
+     */
+    private String userEmail;
+
+    /**
+     * 分享码
+     */
+    private String userShareCode;
+
+    /**
+     * 邀请人
+     */
+    private Long inviteUser;
+
+    /**
+     * vip过期时间
+     */
+    private Date vipExpireTime;
+
+    /**
+     * vip兑换码
+     */
+    private String vipCode;
+
+    /**
+     * vip等级
+     */
+    private Integer vipNumber;
+
+
+    /**
      * 是否删除(逻辑)
      */
     @TableLogic

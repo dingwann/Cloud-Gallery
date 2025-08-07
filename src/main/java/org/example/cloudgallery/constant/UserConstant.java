@@ -7,6 +7,11 @@ public interface UserConstant {
      */
     String USER_LOGIN_STATE = "user_login";
 
+    /**
+     * 邮箱验证码键
+     */
+    String EMAIL_VERIFICATION_CODE = "email_verification_code";
+
     //  region 用户权限
 
     /**

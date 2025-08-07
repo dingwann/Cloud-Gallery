@@ -1,5 +1,6 @@
 package org.example.cloudgallery.model.vo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.io.Serial;
@@ -40,13 +41,40 @@ public class LoginUserVO implements Serializable {
     private String userRole;
 
     /**
+     * 用户邮箱
+     */
+    private String userEmail;
+
+    /**
+     * 用户分享码
+     */
+    private String userShareCode;
+
+    /**
+     * 邀请用户id
+     */
+    private Long inviteUser;
+
+    /**
+     * vip过期时间
+     */
+    private Date vipExpireTime;
+
+    /**
+     * vip等级
+     */
+    private Integer vipNumber;
+
+    /**
      * 创建时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;
 
     /**
      * 更新时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date updateTime;
 
     @Serial

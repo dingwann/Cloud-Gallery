@@ -33,3 +33,47 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### frontend ###
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+cloud-gallery-frontend/node_modules
+cloud-gallery-frontend/.pnp
+cloud-gallery-frontend/.pnp.*
+cloud-gallery-frontend/.yarn/*
+cloud-gallery-frontend/!.yarn/patches
+cloud-gallery-frontend/!.yarn/plugins
+cloud-gallery-frontend/!.yarn/releases
+cloud-gallery-frontend/!.yarn/versions
+
+# testing
+cloud-gallery-frontend/coverage
+
+# next.js
+cloud-gallery-frontend/.next/
+cloud-gallery-frontend/out/
+
+# production
+cloud-gallery-frontend/build
+
+# misc
+cloud-gallery-frontend/.DS_Store
+cloud-gallery-frontend/*.pem
+
+# debug
+cloud-gallery-frontend/npm-debug.log*
+cloud-gallery-frontend/yarn-debug.log*
+cloud-gallery-frontend/yarn-error.log*
+cloud-gallery-frontend/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+cloud-gallery-frontend/.env*
+
+# vercel
+cloud-gallery-frontend/.vercel
+
+# typescript
+cloud-gallery-frontend/*.tsbuildinfo
+cloud-gallery-frontend/next-env.d.ts
+
